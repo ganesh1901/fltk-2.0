@@ -1,0 +1,3 @@
+Change the libraries declaration Accordingly in "makeinclude" file
+LDLIBS =   -lX11 -lXi -lXinerama -lXft -ldl -lpthread -lm  -lXext  -lsupc++  -lfontconfig -lXrender
+GLDLIBS =   -lGLU -lGL -lX11 -lXi -lXinerama -lXft -ldl -lpthread -lm  -lXext  -lsupc++  -lfontconfig -lXrender -lfreetype
